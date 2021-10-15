@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(90deg , #6441a5, #2a0845);
+}
+
+.container{
+    margin-top: 2rem;
+  height: 88vh;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+#hel1 {
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: #e4ff00;
+}
+
+.firstname{
+    font-family: 'Roboto', sans-serif;
+    color: yellow;
+    font-size: 66px;
+}
+.secondname{
+   
+    color: yellow;
+    font-size: 66px;
+}
+.name{
+    display: flex;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.first-name{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 5vw;
+}
+
+.second-name{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 90px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.img-home-1 img{
+    width: 250px;
+    height: 250px;
+}
+
+.img-home-1{
+    width: 39.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.images{
+    margin-top: 30px;
+    display: flex;
+}
+
+.img-n1{
+    display: none;
+}
+.img-n2{
+    display: none;
+}
+.img-n3{
+    display: none;
+}
+.img-n4{
+    display: none;
+}
+.img-n5{
+    display: none;
+}
+.img-n6{
+    display: none;
+}
+
+.img-home-2 img{
+    width: 250px;
+    height: 250px;
+
+}
+.img-home-2{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-01{
+    display: none;
+}
+.img-02{
+    display: none;
+}
+.img-03{
+    display: none;
+}
+.img-04{
+    display: none;
+}
+.img-05{
+    display: none;
+}
+.img-06{
+    display: none;
+}
+
+
+.sec{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 1329px) {
+  #hel1{
+      text-align: center;
+  }
+  .images{
+    flex-direction: column;
+  }
+  .img-home-1 {
+    width: 100%;
+    justify-content: center;
+}
+
+.first-name{ 
+        width: 91%;
+        display: flex;
+       justify-content: center;
+}
+.second-name{
+    display: none;
+}
+.img-home-2 {
+  position: relative;
+  width: 100%;
+    margin-top: 150px;
+}
+.img-home-2::after{
+    content: 'Player-2';
+    position: absolute;
+    top: -85px;
+    left: 34%;
+    color: yellow;
+font-size: 66px;
+font-weight: bold;
+
+}
+  }
+
+  @media only screen and (max-width: 1248px) {
+    .img-home-2::after{
+        left: 40%;
+        }   
+  }
+
+
+  @media only screen and (max-width: 792px) {
+    .img-home-2::after{
+    left: 30%;
+    }
+  }
+
+  @media only screen and (max-width: 564px) {
+  #hel1{font-size: 41px;}
+  }
+  @media only screen and (max-width: 507px) {
+    .img-home-2::after{
+        left: 20%;
+        }
+  }
+  @media only screen and (max-width: 321px) {
+
+    .img-home-2::after {
+        left: 15%;
+        font-size: 59px;
+    }
+    .firstname{
+        font-size: 59px;
+    }
+   
+
+  }
